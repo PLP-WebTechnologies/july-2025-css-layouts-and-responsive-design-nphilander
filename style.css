@@ -19,6 +19,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  color: rgba(170, 137, 28);
+}
+
 /* Navigation */
 nav {
   background-color: rgba(240, 68, 105, 0.3);
@@ -71,24 +76,20 @@ main {
 }
 
 .character-details h3 {
-  color: #8c6bff;
+  color: #ffffff;
   font-size: 1.3rem;
-  margin-bottom: 15px;
-}
-
-.traits {
-  list-style: none;
+  margin-bottom: 0.9rem;
 }
 
 .traits li {
-  margin-bottom: 12px;
-  padding-left: 25px;
+  margin-bottom: 3%;
+  padding-left: 10%;
   position: relative;
 }
 /* About Section */
 .about {
-  padding: 60px 0;
-  background-color: #151025;
+  padding: 5% 0;
+  background-color: #3a2b6b;
   margin-top: 40px;
 }
 
@@ -96,23 +97,25 @@ main {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  color: rgb(213, 186, 229);
 }
 
 .about-content p {
-  margin-bottom: 20px;
+  margin-bottom: 0.7rem;
   font-size: 1.1rem;
 }
 
 .highlight {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 /* Footer */
 footer {
-  background-color: #0c0818;
+  background-color: #666274;
   padding: 30px 0;
   text-align: center;
   border-top: 1px solid #2e2150;
+  color: rgb(213, 186, 229);
 }
 
 /* Media Queries */
