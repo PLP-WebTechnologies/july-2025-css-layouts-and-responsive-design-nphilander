@@ -1,0 +1,148 @@
+body {
+  background-color: #c6c6f8;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 0.9rem rgba(153, 3, 36, 0.7);
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: rgba(240, 68, 105, 0.3);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #0c9cf0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: lower-greek;
+  gap: 7rem;
+}
+
+.nav-links a {
+  color: rgb(1, 4, 32);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Main Content */
+main {
+  padding: 40px 0;
+  background-color: #c5d2f0;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.character-card {
+  background: linear-gradient(to bottom, #ad8fdb, #4d3972);
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.character-name {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.character-details {
+  padding: 25px;
+}
+
+.character-details h3 {
+  color: #8c6bff;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.traits {
+  list-style: none;
+}
+
+.traits li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+/* About Section */
+.about {
+  padding: 60px 0;
+  background-color: #151025;
+  margin-top: 40px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: #0c0818;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #2e2150;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (min-width: 768px) {
+  .character-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    width: 85%;
+    padding: 20px 0;
+  }
+
+  .nav-links {
+    gap: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
